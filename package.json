@@ -1,0 +1,19 @@
+{
+  "name": "taxi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test nodemon --exec 'mocha -R min' "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.4.11",
+    "nodemon": "^1.18.10",
+    "supertest": "^3.4.2"
+  }
+}
